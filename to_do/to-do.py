@@ -1,5 +1,7 @@
+
 task =[]
 file_name = "file.txt"
+
 
 
 def load_file():
@@ -24,6 +26,8 @@ def show_menu():
 
 def add_task():
     a = input("Enter your tasks:")
+
+   
     task.append({"task" : a,"completed ": False})
     save_task()
     print("Task is saved")
