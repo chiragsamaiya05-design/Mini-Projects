@@ -1,0 +1,2 @@
+Reding a book | False
+taking tablet | True
