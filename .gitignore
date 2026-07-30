@@ -1,0 +1,126 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Model Files
+# ==========================
+
+# ==========================
+# Datasets
+# ==========================
+data/
+datasets/
+dataset/
+raw_data/
+processed_data/
+
+# Ignore large CSV files
+*.csv
+*.tsv
+*.zip
+*.gz
+*.tar
+*.7z
+
+# Keep folder structure
+!data/.gitkeep
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+wandb/
+mlruns/
+tensorboard/
+runs/
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+ruff_cache/
+*.cache
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Hugging Face
+# ==========================
+.cache/huggingface/
+huggingface/
+
+# ==========================
+# PyTorch
+# ==========================
+checkpoints/
+weights/
+models/
+
+# ==========================
+# TensorFlow
+# ==========================
+events.out.tfevents.*
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+credentials.json
+service_account.json
